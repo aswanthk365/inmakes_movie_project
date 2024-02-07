@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static '\css\deatails.css' %}">
+{% endblock %}
+{% block content %}
+
+<h1 class="head-line"><b>{{ get_id.name}}</b></h1>
+<div class="deatail">
+    <div class="img" >
+        <img src="{{ get_id.movie_image.url }}" alt="" style="height: 600px; width: 500px;">
+    </div>
+    <div class="deatails">
+        <h3><b>{{ get_id.name }}</b></h3>
+        <h5><b>{{ get_id.year }}</b></h5>
+        <p><b>{{ get_id.discription}}</b></p>
+        <a href="{% url 'update' get_id.id %}"class="btn btn-primary" style="background-color: white;color: rgb(69, 4, 4)">Update</a>
+        <a href="{% url 'delete' get_id.id %}"class="btn btn-primary" style="background-color: white;color: rgb(69, 4, 4)">Delete</a>
+    </div>
+</div>
+{% endblock %}

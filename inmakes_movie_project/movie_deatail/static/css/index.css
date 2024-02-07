@@ -1,0 +1,33 @@
+.container {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.movie {
+    width: auto;
+    height: auto;
+}
+
+.img {
+    width: 200px;
+    height: 250px;
+}
+
+.container {
+    float: left;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.card {
+    float: left;
+    border: 1px solid rgb(9, 8, 8);
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 15px;
+    margin-left: 24px;
+    background-color: rgb(69, 4, 4);
+}

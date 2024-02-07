@@ -1,0 +1,30 @@
+.deatail {
+    height: auto;
+    width: 100%;
+    margin-left: 50px;
+    background-color: brown;
+}
+
+.img {
+    width: 40%;
+    float: left;
+}
+
+.deatails {
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+
+.head-line {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
